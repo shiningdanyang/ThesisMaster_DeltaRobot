@@ -1,0 +1,45 @@
+[System]
+Name='fuzzy_example'
+Type='sugeno'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=7
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='input1'
+Range=[-1 1]
+NumMFs=7
+MF1='A':'trimf',[-1 -1 -0.666666666666667]
+MF2='B':'trimf',[-1 -0.6667 -0.333333333333333]
+MF3='C':'trimf',[-0.6667 -0.3333 0]
+MF4='D':'trimf',[-0.3333 0 0.333333333333333]
+MF5='E':'trimf',[0 0.333333333333333 0.666666666666667]
+MF6='F':'trimf',[0.333333333333333 0.666666666666667 1]
+MF7='G':'trimf',[0.666666666666667 1 1]
+
+[Output1]
+Name='output1'
+Range=[0 1]
+NumMFs=7
+MF1='A':'constant',[-1]
+MF2='B':'constant',[-0.666666666666667]
+MF3='C':'constant',[-0.333333333333333]
+MF4='D':'constant',[0]
+MF5='E':'constant',[0.333333333333333]
+MF6='F':'constant',[0.666666666666667]
+MF7='G':'constant',[1]
+
+[Rules]
+1, 1 (1) : 1
+2, 2 (1) : 1
+3, 3 (1) : 1
+4, 4 (1) : 1
+5, 5 (1) : 1
+6, 6 (1) : 1
+7, 7 (1) : 1

@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/11/18||23:09:40" using="Simscape Multibody Link Version 4.8" from="SolidWorks 22.1.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem1_ADEPT_HORNET" uid="Assem1_ADEPT_HORNET" version="375">
+<AssemblyFile name="Assem1_ADEPT_HORNET.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Part3.Driven_ArmSLDPRT-5" uid="Part3.Driven_ArmSLDPRT-5" entityUid="Part3.Driven_ArmSLDPRT*:*Default">
+<Transform>
+<Rotation>-0.28181818175002887 -0.41301151611501397 0.86602540377952264 0.48812340927965986 0.7153569300039575 0.50000000000851474 -0.82602303221418061 0.56363636349306867 1.8238568247501697e-012</Rotation>
+<Translation>-0.47570168786825362 0.34682015908725183 0.34074588902101655</Translation>
+</Transform>
+</Instance>
+<Instance name="Part6_Gripper-1" uid="Part6_Gripper-1" entityUid="Part6_Gripper*:*Default">
+<Transform>
+<Rotation>0.43833129744510463 0.89881348102934633 2.1701088010208185e-012 -0.89881348102934633 0.43833129744510463 -4.7561183412347104e-012 -5.2260898888211871e-012 1.3423247765792691e-013 0.99999999999999989</Rotation>
+<Translation>-0.28124849391816681 0.10401734747637116 0.68348038980893999</Translation>
+</Transform>
+</Instance>
+<Instance name="Part4.Double_Join_edit-2" uid="Part4.Double_Join_edit-2" entityUid="Part4.Double_Join_edit*:*Default">
+<Transform>
+<Rotation>0.28181818174177292 -0.86602540378975834 -0.41301151609918474 0.48812340928541714 0.49999999999078604 -0.7153569300124204 0.8260230322135953 3.9882707048277186e-015 0.56363636349392654</Rotation>
+<Translation>-0.55124849385269103 -0.36363637046915692 1.1388232380704777e-005</Translation>
+</Transform>
+</Instance>
+<Instance name="InnerArm-Hornet565_1-3" uid="InnerArm-Hornet565_1-3" entityUid="InnerArm-Hornet565_1*:*Default">
+<Transform>
+<Rotation>1 0 -1.0860717586210209e-011 1.0860717586210207e-011 -4.6719553769370538e-016 0.99999999999999989 0 -1 -4.6719553769354327e-016</Rotation>
+<Translation>-0.056248493830108021 0.13601734747847127 2.3518291602923382e-014</Translation>
+</Transform>
+</Instance>
+<Instance name="Part3.Driven_ArmSLDPRT-1" uid="Part3.Driven_ArmSLDPRT-1" entityUid="Part3.Driven_ArmSLDPRT*:*Default">
+<Transform>
+<Rotation>-0.28181818174001039 -0.41301151609926245 -0.8660254037902948 -0.48812340928617637 -0.71535693001255185 0.49999999998985684 -0.82602303221374784 0.56363636349370294 -1.5712940153838024e-012</Rotation>
+<Translation>-0.39429529990681922 -0.18578546413817709 0.34074588902039138</Translation>
+</Transform>
+</Instance>
+<Instance name="Part3.Driven_ArmSLDPRT-6" uid="Part3.Driven_ArmSLDPRT-6" entityUid="Part3.Driven_ArmSLDPRT*:*Default">
+<Transform>
+<Rotation>-0.2818181817500286 0.41301151611501347 -0.86602540377952297 0.48812340927965919 -0.71535693000395839 -0.50000000000851419 -0.82602303221418105 -0.563636363493068 -1.8232360066150477e-012</Rotation>
+<Translation>-0.39429529991302664 0.39382015908813539 0.34074588902104652</Translation>
+</Transform>
+</Instance>
+<Instance name="Part4.Double_Join_edit-7" uid="Part4.Double_Join_edit-7" entityUid="Part4.Double_Join_edit*:*Default">
+<Transform>
+<Rotation>0.28181818175166196 -0.86602540377900983 0.41301151611497505 -0.48812340927884185 -0.50000000000940303 -0.71535693000389489 0.826023032214107 -3.1635484204987412e-013 -0.56363636349317681</Rotation>
+<Translation>-0.3187484939187068 0.16896925275975727 0.68148038980942194</Translation>
+</Transform>
+</Instance>
+<Instance name="Platform_Fixed-Hornet565_1-1" uid="Platform_Fixed-Hornet565_1-1" entityUid="Platform_Fixed-Hornet565_1*:*Default">
+<Transform>
+<Rotation>0.86602540377905457 -2.1731771048459695e-012 -0.50000000000932554 0.50000000000932554 4.7543531684991977e-012 0.86602540377905457 4.9515000453444172e-013 -1 5.2039791749058639e-012</Rotation>
+<Translation>-0.28124849391813567 0.10401734747634932 0.69348038980894</Translation>
+</Transform>
+</Instance>
+<Instance name="InnerArm-Hornet565_1-1" uid="InnerArm-Hornet565_1-1" entityUid="InnerArm-Hornet565_1*:*Default">
+<Transform>
+<Rotation>-0.4999999999907847 6.2932086726582966e-013 0.86602540378975901 -0.86602540378975901 1.0953530057665389e-012 -0.4999999999907847 -1.2632639627384086e-012 -1 -2.6686446859640293e-015</Rotation>
+<Translation>-0.36603568103869366 -0.10683836845270996 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Base-Hornet565_1-1" uid="Base-Hornet565_1-1" grounded="true" entityUid="Base-Hornet565_1*:*Default">
+<Transform>
+<Rotation>1 -1.0861174912054621e-011 0 1.086117491191991e-011 1 0 0 0 1</Rotation>
+<Translation>-0.28124849391776063 0.10401734747602828 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part4.Double_Join_edit-3" uid="Part4.Double_Join_edit-3" entityUid="Part4.Double_Join_edit*:*Default">
+<Transform>
+<Rotation>0.28181818175199713 -0.86602540377890069 0.41301151611497505 -0.48812340927864839 -0.50000000000959199 -0.71535693000389478 0.82602303221410689 3.2237999584269412e-015 -0.56363636349317692</Rotation>
+<Translation>-0.55124849386252073 0.57167106541554491 1.1388232798470319e-005</Translation>
+</Transform>
+</Instance>
+<Instance name="Part3.Driven_ArmSLDPRT-2" uid="Part3.Driven_ArmSLDPRT-2" entityUid="Part3.Driven_ArmSLDPRT*:*Default">
+<Transform>
+<Rotation>-0.28181818174000944 -0.41301151609926318 -0.86602540379029491 -0.48812340928617481 -0.71535693001255307 0.49999999998985689 -0.82602303221374906 0.56363636349370128 -1.5713489185598461e-012</Rotation>
+<Translation>-0.47570168786291517 -0.13878546413879853 0.34074588902080377</Translation>
+</Transform>
+</Instance>
+<Instance name="Part4.Double_Join_edit-5" uid="Part4.Double_Join_edit-5" entityUid="Part4.Double_Join_edit*:*Default">
+<Transform>
+<Rotation>-0.56363636349382262 -1.4074436168865282e-011 -0.82602303221366613 -1.1827487054404208e-011 1 -8.9683145473532244e-012 0.82602303221366613 4.7149085220079339e-012 -0.56363636349382262</Rotation>
+<Translation>-0.20624849391802452 0.10401734747764288 0.68148038980880798</Translation>
+</Transform>
+</Instance>
+<Instance name="InnerArm-Hornet565_1-2" uid="InnerArm-Hornet565_1-2" entityUid="InnerArm-Hornet565_1*:*Default">
+<Transform>
+<Rotation>-0.50000000000959599 -2.9080079452853559e-015 -0.86602540377889836 0.86602540377889836 -1.7109885481656316e-015 -0.50000000000959599 0 -1 3.3739030291072293e-015</Rotation>
+<Translation>-0.42146130688491318 0.28287306340243834 -1.1472799538412017e-013</Translation>
+</Transform>
+</Instance>
+<Instance name="Part4.Double_Join_edit-1" uid="Part4.Double_Join_edit-1" entityUid="Part4.Double_Join_edit*:*Default">
+<Transform>
+<Rotation>-0.56363636349382285 -1.0857683430757796e-011 -0.82602303221366624 -6.1198194731291919e-012 1 -8.9686732073692057e-012 0.82602303221366624 0 -0.56363636349382285</Rotation>
+<Translation>0.25875150596422813 0.10401734748189131 1.1388232755115181e-005</Translation>
+</Transform>
+</Instance>
+<Instance name="Part3.Driven_ArmSLDPRT-4" uid="Part3.Driven_ArmSLDPRT-4" entityUid="Part3.Driven_ArmSLDPRT*:*Default">
+<Transform>
+<Rotation>0.56363636349382285 -0.82602303221366624 -1.0384247966487941e-011 5.279914552707418e-012 -8.9686314297898765e-012 1 -0.82602303221366613 -0.56363636349382285 -6.9371577594672768e-013</Rotation>
+<Translation>0.02625150602250477 0.15101734747973239 0.34074588902090869</Translation>
+</Transform>
+</Instance>
+<Instance name="Part4.Double_Join_edit-4" uid="Part4.Double_Join_edit-4" entityUid="Part4.Double_Join_edit*:*Default">
+<Transform>
+<Rotation>0.28181818174637913 -0.8660254037882591 -0.41301151609918502 0.4881234092827561 0.49999999999338263 -0.71535693001242162 0.8260230322135963 4.3983987756562083e-012 0.5636363634939251</Rotation>
+<Translation>-0.31874849391701893 0.039065442192218636 0.68148038980880365</Translation>
+</Transform>
+</Instance>
+<Instance name="Part3.Driven_ArmSLDPRT-3" uid="Part3.Driven_ArmSLDPRT-3" entityUid="Part3.Driven_ArmSLDPRT*:*Default">
+<Transform>
+<Rotation>0.56363636349382229 -0.82602303221366646 -1.0383991096946774e-011 5.2799469342157389e-012 -8.9682983628824954e-012 0.99999999999999989 -0.82602303221366657 -0.56363636349382229 -6.9350129945455321e-013</Rotation>
+<Translation>0.026251506023532562 0.057017347479732423 0.34074588902089875</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-2</Uid>
+</InstancePath>
+<Position>0 -0.047000000000000014 -0.029999999999999916</Position>
+<Axis>0 1.3851064991065779e-016 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-1</Uid>
+</InstancePath>
+<Position>0.41249999999999998 -0.012500000000000011 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-2</Uid>
+</InstancePath>
+<Position>0.011001000000000039 -0.055000000000000021 -0.0074999999999999512</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-1</Uid>
+</InstancePath>
+<Position>0.42249999999999993 -0.0074999999999999512 0.0065000000000000058</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-2</Uid>
+</InstancePath>
+<Position>0 0.046999999999999875 -0.030000000000000027</Position>
+<Axis>0 1.3851064991065779e-016 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-2</Uid>
+</InstancePath>
+<Position>0.41249999999999998 -0.012499999999999956 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-2</Uid>
+</InstancePath>
+<Position>0.011001000000000039 0.054999999999999938 -0.0075000000000000067</Position>
+<Axis>0 1.9402180114191562e-016 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-2</Uid>
+</InstancePath>
+<Position>0.42249999999999988 -0.0074999999999999512 0.0065000000000000613</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-1</Uid>
+</InstancePath>
+<Position>-0.42249999999999976 -0.0075000000000000067 0.0065000000000000058</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-4</Uid>
+</InstancePath>
+<Position>0.011001000000000039 -0.054999999999999993 -0.0075000000000000067</Position>
+<Axis>0 -2.5256748590181291e-016 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-1</Uid>
+</InstancePath>
+<Position>-0.41249999999999992 -0.012499999999999956 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-4</Uid>
+</InstancePath>
+<Position>0 -0.047000000000000014 -0.029999999999999971</Position>
+<Axis>-1.1102230246251565e-016 -1.4154518343929725e-016 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-2</Uid>
+</InstancePath>
+<Position>-0.42249999999999999 -0.0074999999999999512 0.0064999999999998948</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-4</Uid>
+</InstancePath>
+<Position>0.011001000000000039 0.054999999999999993 -0.0075000000000000067</Position>
+<Axis>-1.1102230246251565e-016 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-2</Uid>
+</InstancePath>
+<Position>-0.41249999999999987 -0.012500000000000011 -1.1102230246251565e-016</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-4</Uid>
+</InstancePath>
+<Position>0 0.046999999999999931 -0.029999999999999971</Position>
+<Axis>-1.1102230246251565e-016 -1.4154518343929725e-016 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-1</Uid>
+</InstancePath>
+<Position>0.011001000000000039 -0.054999999999999973 -0.0075000000000000344</Position>
+<Axis>0 -1.0408340855760217e-016 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-3</Uid>
+</InstancePath>
+<Position>0.4225000000000001 -0.0074999999999999512 0.006499999999999985</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-1</Uid>
+</InstancePath>
+<Position>0 -0.046999999999999979 -0.030000000000000054</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-3</Uid>
+</InstancePath>
+<Position>0.41250000000000003 -0.012499999999999956 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-1</Uid>
+</InstancePath>
+<Position>0.011000999999999983 0.054999999999999993 -0.0075000000000000067</Position>
+<Axis>0 1.0408340855961468e-016 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-4</Uid>
+</InstancePath>
+<Position>0.42249999999999999 -0.0075000000000000344 0.0065000000000000335</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-1</Uid>
+</InstancePath>
+<Position>0 0.046999999999999986 -0.030000000000000027</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-4</Uid>
+</InstancePath>
+<Position>0.41249999999999998 -0.012500000000000039 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-4</Uid>
+</InstancePath>
+<Position>-0.42250000000000004 0.0075000000000000622 0.0065000000000000335</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-5</Uid>
+</InstancePath>
+<Position>0.011000999999999928 0.054999999999999979 0.0075000000000000344</Position>
+<Axis>0 -1.7347234758233263e-016 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-4</Uid>
+</InstancePath>
+<Position>-0.41249999999999992 0.012500000000000039 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-5</Uid>
+</InstancePath>
+<Position>0 0.046999999999999972 -0.029999999999999943</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-3</Uid>
+</InstancePath>
+<Position>-0.42250000000000015 0.0074999999999999234 0.0064999999999999988</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-5</Uid>
+</InstancePath>
+<Position>0.011001000000000039 -0.054999999999999986 0.0075000000000000067</Position>
+<Axis>0 1.7347234761302879e-016 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-3</Uid>
+</InstancePath>
+<Position>-0.41250000000000003 0.012500000000000067 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-5</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-016 -0.046999999999999993 -0.029999999999999971</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-3</Uid>
+</InstancePath>
+<Position>0.011000999999999983 0.054999999999999993 -0.0074999999999999512</Position>
+<Axis>0 1.2583940789680788e-016 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-5</Uid>
+</InstancePath>
+<Position>0.42249999999999993 0.0075000000000001732 0.0065000000000000335</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-3</Uid>
+</InstancePath>
+<Position>0 0.046999999999999931 -0.030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-5</Uid>
+</InstancePath>
+<Position>0.41249999999999992 0.012500000000000067 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-3</Uid>
+</InstancePath>
+<Position>0.011001000000000039 -0.054999999999999993 -0.0074999999999999512</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-6</Uid>
+</InstancePath>
+<Position>0.42249999999999988 -0.0074999999999999512 0.0065000000000000058</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-3</Uid>
+</InstancePath>
+<Position>0 -0.046999999999999931 -0.029999999999999916</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-6</Uid>
+</InstancePath>
+<Position>0.41249999999999987 -0.012500000000000067 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-5</Uid>
+</InstancePath>
+<Position>-0.42249999999999999 -0.0075000000000000622 0.0065000000000000335</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-7</Uid>
+</InstancePath>
+<Position>0.011001000000000039 0.054999999999999966 0.0075000000000000622</Position>
+<Axis>0 -1.7380844534301471e-016 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-5</Uid>
+</InstancePath>
+<Position>-0.41249999999999992 -0.012500000000000067 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-7</Uid>
+</InstancePath>
+<Position>0 0.047000000000000014 -0.030000000000000027</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-6</Uid>
+</InstancePath>
+<Position>-0.42249999999999999 0.0074999999999999512 0.0065000000000000335</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-7</Uid>
+</InstancePath>
+<Position>0.011001000000000039 -0.054999999999999993 0.0074999999999999512</Position>
+<Axis>0 2.1476961327579008e-016 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3.Driven_ArmSLDPRT-6</Uid>
+</InstancePath>
+<Position>-0.41249999999999992 0.012499999999999956 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-7</Uid>
+</InstancePath>
+<Position>0 -0.046999999999999958 -0.030000000000000027</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-7</Uid>
+</InstancePath>
+<Position>-0.01100000000000001 -0.024999999999999967 0.011000000000000121</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform_Fixed-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>0.02500000000000005 0.00086799999999986888 0.086131999999999959</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-7</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-016 0.024999999999999994 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Platform_Fixed-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>-0.064999999999999974 0.0119999999999999 0.074999999999999983</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-5</Uid>
+</InstancePath>
+<Position>-0.01100000000000001 0.024999999999999981 0.01100000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform_Fixed-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>0.087092500079000032 0.02313199999999993 -0.021415364905000012</Position>
+<Axis>0.49999999999721417 0 0.86602540378604709</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-5</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-016 0.025000000000000008 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Platform_Fixed-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>0.097451905283888793 0.0119999999999999 0.018791651246441804</Position>
+<Axis>-0.49999999999721423 0 -0.86602540378604709</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-4</Uid>
+</InstancePath>
+<Position>-0.01100000000000001 -0.025000000000000022 0.011000000000000065</Position>
+<Axis>1.6813449559612938e-016 1 -1.4154518343889336e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform_Fixed-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>-0.062092500078999996 0.02313199999999993 -0.06471663509500003</Position>
+<Axis>0.49999999999721428 0 -0.86602540378604709</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-4</Uid>
+</InstancePath>
+<Position>0 0.024999999999999967 0</Position>
+<Axis>-1.6813449559612938e-016 -1 1.4154518343889336e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Platform_Fixed-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>-0.097451905283843981 0.012000000000000011 0.018791651246467617</Position>
+<Axis>0.49999999999721434 0 -0.86602540378604709</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Platform_Fixed-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part6_Gripper-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 -3.4914813388433984e-015 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform_Fixed-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part6_Gripper-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 3.4914813388433984e-015 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>0.22500000008799986 -0.029075000000000781 -7.8558333714655327e-016</Position>
+<Axis>3.4914812041325373e-015 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-3</Uid>
+</InstancePath>
+<Position>-2.3592239273284576e-016 0 -0.066499999999999976</Position>
+<Axis>3.4804778853547852e-015 2.7697586360733803e-016 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>0.24225224936800008 -0.032200000000000853 0.041650614193999153</Position>
+<Axis>3.4914812041325373e-015 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-3</Uid>
+</InstancePath>
+<Position>0.029248684881475126 0.034306387170673552 -0.06420000000000009</Position>
+<Axis>-3.4804778853547852e-015 -2.7697586360733803e-016 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>-0.087320311428942476 0.20939321592802485 3.0487724112782338e-016</Position>
+<Axis>-0.86602540378433057 -0.50000000000018741 3.1896553956880408e-015</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-2</Uid>
+</InstancePath>
+<Position>-2.7755575615628914e-016 0 -0.066500000000000004</Position>
+<Axis>3.4416913763379853e-015 2.7697586360749994e-016 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>-0.093240106681999113 0.22589660207700035 0.041650614194000325</Position>
+<Axis>-0.86602540378709947 -0.49999999999539113 4.9812082429738476e-012</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-2</Uid>
+</InstancePath>
+<Position>0.029248684881475084 0.034306387170673545 -0.06420000000000009</Position>
+<Axis>-3.4416913763379853e-015 -2.7697586360749994e-016 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>-0.13767968865895097 -0.1803182159280364 4.8070609601835798e-016</Position>
+<Axis>0.86602540378432735 -0.50000000000019296 -3.0237116526443115e-015</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-016 0 -0.066500000000000004</Position>
+<Axis>3.4416913763417063e-015 2.7697586360748022e-016 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>-0.14901214268600055 -0.19369660207699946 0.04165061419400052</Position>
+<Axis>0.86602540378709625 -0.4999999999953969 -4.980292308925308e-012</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>0.029248684881475195 0.034306387170673545 -0.064200000000000146</Position>
+<Axis>-3.4416913763417063e-015 -2.7697586360748022e-016 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>0.31499999979398829 -1.1388232616808823e-005 -0.10700000000000115</Position>
+<Axis>3.4416913763417063e-015 2.7697586360748022e-016 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-2</Uid>
+</InstancePath>
+<Position>0 0.024999999999999967 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-1</Uid>
+</InstancePath>
+<Position>0.29801018193034612 0.014529580190910248 -0.05700000000000105</Position>
+<Axis>-3.4416913763417063e-015 -2.7697586360748022e-016 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-2</Uid>
+</InstancePath>
+<Position>-0.010999999999999954 0.025000000000000022 0.01100000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric29">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-3</Uid>
+</InstancePath>
+<Position>0.31499999979398829 -1.1388232616808826e-005 -0.10700000000000107</Position>
+<Axis>3.4804778853547852e-015 2.7697586360733803e-016 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-1</Uid>
+</InstancePath>
+<Position>0 0.024999999999999994 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-3</Uid>
+</InstancePath>
+<Position>0.29801018193034623 0.014529580190910251 -0.057000000000001022</Position>
+<Axis>-3.4804778853547852e-015 -2.7697586360733803e-016 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-1</Uid>
+</InstancePath>
+<Position>-0.01100000000000001 -0.024999999999999981 0.01100000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric30">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-2</Uid>
+</InstancePath>
+<Position>0.31499999979398835 -1.1388232616808824e-005 -0.10700000000000109</Position>
+<Axis>3.4416913763379853e-015 2.7697586360749994e-016 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-3</Uid>
+</InstancePath>
+<Position>0 0.025000000000000022 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>InnerArm-Hornet565_1-2</Uid>
+</InstancePath>
+<Position>0.32491210337270021 0.017444771752390356 -0.0070000000000011164</Position>
+<Axis>3.4416913763379853e-015 2.7697586360749994e-016 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4.Double_Join_edit-3</Uid>
+</InstancePath>
+<Position>-0.011000000000000065 0.025000000000000022 0.01100000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base-Hornet565_1" uid="Base-Hornet565_1*:*Default" version="196">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base-Hornet565_1.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>46.956240116212108</Mass>
+<CenterOfMass>-0.001750628459425549 -0.0022582777887466985 -0.041879797872509859</CenterOfMass>
+<Inertia>1.5464478810590103 1.5416274443473088 2.7997531255868968 0.0016957165603531843 -0.0014819505040904017 -0.0020323993321653003</Inertia>
+</MassProperties>
+<GeometryFile name="Base-Hornet565_1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="InnerArm-Hornet565_1" uid="InnerArm-Hornet565_1*:*Default" version="216">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="InnerArm-Hornet565_1.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.9540724537815402</Mass>
+<CenterOfMass>0.068819351145112673 0.0052685025373151928 -0.033943295707916182</CenterOfMass>
+<Inertia>0.0020077356846338991 0.019878273231627733 0.020576315136327038 2.7761413861796674e-005 0.00029188387714977913 -0.0012237231574407958</Inertia>
+</MassProperties>
+<GeometryFile name="InnerArm-Hornet565_1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.31764705882352939" g="0.24705882352941178" b="0.20784313725490194" a="1"/>
+<Diffuse r="0.31764705882352939" g="0.24705882352941178" b="0.20784313725490194" a="1"/>
+<Specular r="0.31764705882352939" g="0.24705882352941178" b="0.20784313725490194" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part3.Driven_ArmSLDPRT" uid="Part3.Driven_ArmSLDPRT*:*Default" version="472">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part3.Driven_ArmSLDPRT.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.27522806325878818</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>5.7948392982275207e-006 0.018226310907596455 0.018226869637865736 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part3.Driven_ArmSLDPRT_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part4.Double_Join_edit" uid="Part4.Double_Join_edit*:*Default" version="795">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part4.Double_Join_edit.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.073154680676195447</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>5.3490429007485445e-005 5.5094509987910482e-006 5.2764400987271739e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part4.Double_Join_edit_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part6_Gripper" uid="Part6_Gripper*:*Default" version="194">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part6_Gripper.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.072944402279547002</Mass>
+<CenterOfMass>0 0 0.028247360854768231</CenterOfMass>
+<Inertia>3.4416054539762142e-005 3.4416054539762135e-005 1.4109404382378967e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part6_Gripper_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.51764705882352935" b="0" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.51764705882352935" b="0" a="1"/>
+<Specular r="0.45294117647058824" g="0.36235294117647054" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Platform_Fixed-Hornet565_1" uid="Platform_Fixed-Hornet565_1*:*Default" version="570">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Platform_Fixed-Hornet565_1.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.27049787358228572</Mass>
+<CenterOfMass>-2.4542208133919723e-008 0.0036110747513140142 -8.5859780689767639e-005</CenterOfMass>
+<Inertia>0.0003477200823065646 0.00066426591277700343 0.00034830534401804271 -2.4113430055726522e-007 -1.163740318793017e-010 1.2667769614701766e-010</Inertia>
+</MassProperties>
+<GeometryFile name="Platform_Fixed-Hornet565_1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.31764705882352939" g="0.24705882352941178" b="0.20784313725490194" a="1"/>
+<Diffuse r="0.31764705882352939" g="0.24705882352941178" b="0.20784313725490194" a="1"/>
+<Specular r="0.1588235294117647" g="0.12352941176470589" b="0.10392156862745097" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

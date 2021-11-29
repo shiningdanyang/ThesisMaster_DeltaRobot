@@ -1,0 +1,89 @@
+[System]
+Name='Fuzzy_PID'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=3
+NumRules=25
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='e'
+Range=[-60 60]
+NumMFs=5
+MF1='NBe':'trapmf',[-240 -240 -60 -12]
+MF2='Ne':'trimf',[-60 -12 0]
+MF3='Ze':'trimf',[-12 0 12]
+MF4='Pe':'trimf',[0 12 60]
+MF5='PBe':'trapmf',[12 60 240 240]
+
+[Input2]
+Name='de/dt'
+Range=[-60 60]
+NumMFs=5
+MF1='NBde':'trapmf',[-300 -300 -60 -30]
+MF2='Nde':'trimf',[-60 -30 0]
+MF3='Zde':'trimf',[-30 0 30]
+MF4='Pde':'trimf',[0 30 60]
+MF5='PBde':'trapmf',[30 60 300 300]
+
+[Output1]
+Name='KpF'
+Range=[0 60]
+NumMFs=5
+MF1='Sp':'trimf',[-15 0 15]
+MF2='MSp':'trimf',[0 15 30]
+MF3='Mp':'trimf',[15 30 45]
+MF4='MBd':'trimf',[30 45 60]
+MF5='Bd':'trimf',[45 60 75]
+
+[Output2]
+Name='KdF'
+Range=[0 60]
+NumMFs=5
+MF1='Si':'trimf',[-15 0 15]
+MF2='MSi':'trimf',[0 15 30]
+MF3='Mi':'trimf',[15 30 45]
+MF4='MBi':'trimf',[30 45 60]
+MF5='Bi':'trimf',[45 60 75]
+
+[Output3]
+Name='Alpha'
+Range=[0 2]
+NumMFs=5
+MF1='Sd':'trimf',[0 0.3 0.65]
+MF2='MSd':'trimf',[0.35 0.65 1]
+MF3='Md':'trimf',[0.65 1 1.35]
+MF4='MBd':'trimf',[1 1.35 1.65]
+MF5='Bd':'trimf',[1.35 1.65 2]
+
+[Rules]
+1 1, 1 5 1 (1) : 1
+1 2, 1 5 1 (1) : 1
+1 3, 1 5 1 (1) : 1
+1 4, 2 2 4 (1) : 1
+1 5, 3 1 5 (1) : 1
+2 1, 1 5 1 (1) : 1
+2 2, 2 4 2 (1) : 1
+2 3, 2 4 2 (1) : 1
+2 4, 2 3 3 (1) : 1
+2 5, 3 1 5 (1) : 1
+3 1, 1 4 2 (1) : 1
+3 2, 2 4 2 (1) : 1
+3 3, 3 3 3 (1) : 1
+3 4, 4 2 4 (1) : 1
+3 5, 5 1 5 (1) : 1
+4 1, 3 3 3 (1) : 1
+4 2, 4 4 2 (1) : 1
+4 3, 4 2 4 (1) : 1
+4 4, 4 2 4 (1) : 1
+4 5, 5 1 5 (1) : 1
+5 1, 3 3 3 (1) : 1
+5 2, 4 2 4 (1) : 1
+5 3, 5 1 5 (1) : 1
+5 4, 5 1 5 (1) : 1
+5 5, 5 1 5 (1) : 1

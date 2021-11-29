@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/16/20||10:19:57" using="Simscape Multibody Link Version 5.1" from="SolidWorks 25.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="robot_delta_2018" uid="robot_delta_2018" version="335">
+<AssemblyFile name="robot_delta_2018.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="fixed_platform-1" uid="fixed_platform-1" grounded="true" entityUid="fixed_platform*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="lower_leg-6" uid="lower_leg-6" entityUid="lower_leg*:*Default">
+<Transform>
+<Rotation>-0.73144065267288738 -0.45514350626269845 -0.50777845594743165 -0.42229746348749314 -0.28232654635985188 0.86136901125623733 -0.53540584975277417 0.84447386574565775 0.014299165118790803</Rotation>
+<Translation>0.17540368555822083 0.046290048528153036 -0.081195642095270248</Translation>
+</Transform>
+</Instance>
+<Instance name="uper_leg-2" uid="uper_leg-2" entityUid="uper_leg*:*Default">
+<Transform>
+<Rotation>1.0264011862658549e-13 -6.9829626776857492e-15 1 -1 -6.9805272673313872e-15 1.0264011862658544e-13 6.9805272673306702e-15 -1 -6.9829626776864655e-15</Rotation>
+<Translation>-6.1569714960322983e-16 -0.099999999999994954 1.9923695296993144e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="moving_platform-1" uid="moving_platform-1" entityUid="moving_platform*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>3.3155833992488233e-14 1.4535131303346225e-14 -0.15848017421837171</Translation>
+</Transform>
+</Instance>
+<Instance name="uper_leg-1" uid="uper_leg-1" entityUid="uper_leg*:*Default">
+<Transform>
+<Rotation>-0.86602540378441373 -2.5544020316388166e-15 -0.50000000000004319 0.50000000000004319 9.5644560085206759e-15 -0.86602540378441373 6.9944050551384846e-15 -1 -7.0058608609378622e-15</Rotation>
+<Translation>-0.086602540378441964 0.050000000000004145 4.3021461402908339e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="lower_leg-1" uid="lower_leg-1" entityUid="lower_leg*:*Default">
+<Transform>
+<Rotation>-9.5890215615936081e-09 -0.032485083708643211 0.999472220392564 0.84459491825841515 0.53512327329621889 0.017392711944992298 -0.53540584984856221 0.8441491584507933 0.0274367314882107</Rotation>
+<Translation>-0.047587787659080283 -0.17502075187495289 -0.081150967737572091</Translation>
+</Transform>
+</Instance>
+<Instance name="uper_leg-3" uid="uper_leg-3" entityUid="uper_leg*:*Default">
+<Transform>
+<Rotation>0.86602540378443982 9.6589403142388619e-15 -0.49999999999999784 0.49999999999999817 -2.6090241078691179e-15 0.86602540378443982 7.2164496600635175e-15 -1 -7.0057026583832088e-15</Rotation>
+<Translation>0.086602540378444032 0.049999999999999774 -6.6856615266741052e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="lower_leg-4" uid="lower_leg-4" entityUid="lower_leg*:*Default">
+<Transform>
+<Rotation>0.73144065994739571 0.47978778535974759 -0.48455984356455595 -0.42229745076374597 -0.23922144836650755 -0.87432142929238099 -0.53540584985052186 0.84414262992756106 0.027636864598234456</Rotation>
+<Translation>-0.1277783409446771 0.12872205881276425 -0.081150284439094778</Translation>
+</Transform>
+</Instance>
+<Instance name="lower_leg-3" uid="lower_leg-3" entityUid="lower_leg*:*Default">
+<Transform>
+<Rotation>1.0126280537616633e-08 0.034305524617316806 -0.99941139226082987 0.8445946023515829 -0.53509120415991474 -0.018367387110417344 -0.53540634818665678 -0.8440974672461844 -0.028974266341108862</Rotation>
+<Translation>0.047584833397817286 -0.17328397854702821 -0.07841123493427847</Translation>
+</Transform>
+</Instance>
+<Instance name="lower_leg-5" uid="lower_leg-5" entityUid="lower_leg*:*Default">
+<Transform>
+<Rotation>0.73144038124406763 -0.46439055543637742 0.49933593973098522 -0.42229730149522904 0.26646356361578888 0.86640761678035949 -0.53540634833309619 -0.84459373741856936 -0.0012086678418671958</Rotation>
+<Translation>-0.17383662346082096 0.045354805108061239 -0.078317147506423032</Translation>
+</Transform>
+</Instance>
+<Instance name="lower_leg-7" uid="lower_leg-7" entityUid="lower_leg*:*Default">
+<Transform>
+<Rotation>-0.73144038697478131 0.44497627792119759 0.51671178851423494 -0.42229729178271669 0.29936699312087944 -0.85559593312658189 -0.53540634816479871 -0.84402340934192133 -0.031056832222137676</Rotation>
+<Translation>0.12628181200040869 0.12785047088698454 -0.078418355895561176</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>fixed_platform-1</Uid>
+</InstancePath>
+<Position>-0.093352540378442581 0.038308657048914521 0</Position>
+<Axis>0.50000000000004297 0.86602540378441373 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>uper_leg-1</Uid>
+</InstancePath>
+<Position>0 -1.0474444016529416e-16 0.014999999999999999</Position>
+<Axis>0 6.9829626776862667e-15 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fixed_platform-1</Uid>
+</InstancePath>
+<Position>-0.077852540378441221 0.065155444566231374 0</Position>
+<Axis>-0.50000000000004297 -0.86602540378441373 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>uper_leg-1</Uid>
+</InstancePath>
+<Position>0 1.0474444016529416e-16 -0.014999999999999999</Position>
+<Axis>0 6.9829626776862667e-15 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<UnknownConstraint name="Coincident2">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>fixed_platform-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>robot_delta_2018</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fixed_platform-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>robot_delta_2018</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fixed_platform-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>robot_delta_2018</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>fixed_platform-1</Uid>
+</InstancePath>
+<Position>0.013499999999999408 -0.099999999999993566 0</Position>
+<Axis>-1 -1.026401186265957e-13 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>uper_leg-2</Uid>
+</InstancePath>
+<Position>0 -1.0474444016529396e-16 0.014999999999999999</Position>
+<Axis>0 6.9829626776862667e-15 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fixed_platform-1</Uid>
+</InstancePath>
+<Position>-0.017500000000000619 -0.09999999999999673 0</Position>
+<Axis>1 1.026401186265957e-13 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>uper_leg-2</Uid>
+</InstancePath>
+<Position>0 1.0474444016529376e-16 -0.015000000000000003</Position>
+<Axis>0 6.9829626776862667e-15 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>fixed_platform-1</Uid>
+</InstancePath>
+<Position>0.079852540378444026 0.061691342951089745 0</Position>
+<Axis>0.49999999999999806 -0.86602540378443993 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>uper_leg-3</Uid>
+</InstancePath>
+<Position>0 -1.0599316999384786e-16 0.014999999999999999</Position>
+<Axis>-2.7755575615628899e-16 7.0662113329231602e-15 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>uper_leg-3</Uid>
+</InstancePath>
+<Position>0 1.0599316999384629e-16 -0.014999999999999999</Position>
+<Axis>-2.7755575615628899e-16 7.0662113329231602e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fixed_platform-1</Uid>
+</InstancePath>
+<Position>0.095352540378443984 0.034844555433772094 0</Position>
+<Axis>-0.49999999999999806 0.86602540378443993 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>uper_leg-2</Uid>
+</InstancePath>
+<Position>0.20000000000000004 0 -0.051000000000000004</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-1</Uid>
+</InstancePath>
+<Position>-0.14900554066902369 0.0017350627758912496 -0.0033576221947195298</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>moving_platform-1</Uid>
+</InstancePath>
+<Position>-0.05099999999999999 -0.050000000000000003 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-1</Uid>
+</InstancePath>
+<Position>0.14699440125711533 0.0017349754023809894 -0.0033576221947203416</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>uper_leg-2</Uid>
+</InstancePath>
+<Position>0.19999999999999998 0 0.05099999999999999</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-3</Uid>
+</InstancePath>
+<Position>-0.14900554066902358 0.0017350627758912218 -0.0033576221947195228</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>moving_platform-1</Uid>
+</InstancePath>
+<Position>0.051000000000000004 -0.050000000000000003 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-3</Uid>
+</InstancePath>
+<Position>0.1469944012571153 0.0017349754023810171 -0.0033576221947203416</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>uper_leg-1</Uid>
+</InstancePath>
+<Position>0.19999999999999996 0 -0.051000000000000004</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-4</Uid>
+</InstancePath>
+<Position>-0.14900554066902363 0.0017350627758913051 -0.0033576221947195783</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>moving_platform-1</Uid>
+</InstancePath>
+<Position>-0.017801270189221913 0.069167295593006356 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-4</Uid>
+</InstancePath>
+<Position>0.14699440125711521 0.0017349754023810171 -0.0033576221947203139</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>uper_leg-1</Uid>
+</InstancePath>
+<Position>0.20000000000000001 0 0.051000000000000018</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-5</Uid>
+</InstancePath>
+<Position>-0.14900554066902361 0.0017350627758913051 -0.0033576221947195437</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>moving_platform-1</Uid>
+</InstancePath>
+<Position>-0.068801270189221914 -0.019167295593006381 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-5</Uid>
+</InstancePath>
+<Position>0.1469944012571153 0.0017349754023810171 -0.0033576221947203277</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>uper_leg-3</Uid>
+</InstancePath>
+<Position>0.20000000000000007 0 -0.050999999999999941</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-6</Uid>
+</InstancePath>
+<Position>-0.14900554066902366 0.0017350627758912496 -0.0033576221947195159</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>moving_platform-1</Uid>
+</InstancePath>
+<Position>0.068801270189221941 -0.019167295593006364 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-6</Uid>
+</InstancePath>
+<Position>0.14699440125711533 0.0017349754023809894 -0.0033576221947203486</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>uper_leg-3</Uid>
+</InstancePath>
+<Position>0.20000000000000007 0 0.051000000000000052</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-7</Uid>
+</InstancePath>
+<Position>-0.14900554066902369 0.0017350627758912496 -0.0033576221947195645</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>moving_platform-1</Uid>
+</InstancePath>
+<Position>0.017801270189221927 0.06916729559300637 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>lower_leg-7</Uid>
+</InstancePath>
+<Position>0.1469944012571153 0.0017349754023809616 -0.0033576221947203208</Position>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="fixed_platform" uid="fixed_platform*:*Default" version="398">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="fixed_platform.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.7679251421757871</Mass>
+<CenterOfMass>-1.0999606394160322e-09 9.5749285442081883e-11 0.01888936211834729</CenterOfMass>
+<Inertia>0.022943990974753633 0.022943990813552077 0.042315951256193446 5.0418381763398662e-12 -5.7880311153213175e-11 1.3611034592160912e-10</Inertia>
+</MassProperties>
+<GeometryFile name="fixed_platform_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="lower_leg" uid="lower_leg*:*Default" version="780">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="lower_leg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.33926999999999996</Mass>
+<CenterOfMass>-0.00093235964153514934 0.0017350186475722689 -0.0014637061508061889</CenterOfMass>
+<Inertia>1.9177226511092065e-05 0.0025552975657230333 0.0025568788318255432 1.792985628203907e-13 -1.1380142526926184e-08 -1.0924838392590805e-11</Inertia>
+</MassProperties>
+<GeometryFile name="lower_leg_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="moving_platform" uid="moving_platform*:*Default" version="992">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="moving_platform.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.75751000000000002</Mass>
+<CenterOfMass>-0.00030804090045439289 0.0002950126761607636 -6.2653656144112592e-10</CenterOfMass>
+<Inertia>0.0010092755498795956 0.0010092755948226714 0.0019805736013713826 1.9797447162879803e-11 4.0518658752042156e-11 5.5512414555902157e-11</Inertia>
+</MassProperties>
+<GeometryFile name="moving_platform_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="uper_leg" uid="uper_leg*:*Default" version="606">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="uper_leg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.38277999999999995</Mass>
+<CenterOfMass>0.12368598596111065 3.3360662496122833e-05 4.5637950407373553e-08</CenterOfMass>
+<Inertia>0.00013576580812523211 0.002305100070085885 0.002227724210169028 -8.7376907710877989e-11 2.0394046499563324e-09 -1.7086977300738795e-08</Inertia>
+</MassProperties>
+<GeometryFile name="uper_leg_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
